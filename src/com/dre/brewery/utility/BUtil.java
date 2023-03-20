@@ -326,7 +326,7 @@ public class BUtil {
 			page = 1;
 		}
 
-		sender.sendMessage(color("&7-------------- &f" + P.p.languageReader.get("Etc_Page") + " &6" + page + "&f/&6" + pages + " &7--------------"));
+		sender.sendMessage(color("&8&m---------=====&8[&2&l" + P.p.languageReader.get("Etc_Page") + " &2&l" + page + "&8/&2&l" + pages + "&8]&m=====---------"));
 
 		ListIterator<String> iter = strings.listIterator((page - 1) * 7);
 
